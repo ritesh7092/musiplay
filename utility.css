@@ -1,0 +1,79 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.circle-container {
+    width: 40px; /* Adjust the size of the circular container as needed */
+    height: 40px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally and vertically */
+    position: absolute;
+    top: 177px;
+    left: 161px;
+    opacity: 0;
+    transition: all 1s ease-out;
+  }
+
+  /* For WebKit browsers (Chrome, Safari) */
+  ::-webkit-scrollbar {
+      width: 12px; /* Set the width of the scrollbar */
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background-color: #333; /* Set the color of the scrollbar thumb */
+      border-radius: 6px; /* Set the border radius of the scrollbar thumb */
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #555; /* Set the color of the scrollbar thumb on hover */
+    }
+    
+    ::-webkit-scrollbar-track {
+      background-color: #222; /* Set the color of the scrollbar track */
+    }
+    
+    ::-webkit-scrollbar-track-piece {
+      background-color: #444; /* Set the color of the scrollbar track piece */
+    }
